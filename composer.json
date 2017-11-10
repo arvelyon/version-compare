@@ -1,0 +1,27 @@
+{
+    "name": "arvelyon/version-compare",
+    "description": "The easiest way to compare versions with some conditions",
+    "keywords": [ "version compare" ],
+    "type": "library",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Michael M Langitan",
+            "email": "arvelyon@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"php":">= 5.4"
+    },
+    "autoload":{
+    	"psr-4":{
+    		"Arvelyon\\VersionCompare\\":"src/Arvelyon/VersionCompare"
+    	}
+    },
+    "autoload-dev":{
+    	"psr-4":{
+    		"Arvelyon\\VersionCompare\\Test\\":"test/Arvelyon/VersionCompare"
+    	}
+    }
+}
